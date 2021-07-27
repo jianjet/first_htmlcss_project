@@ -141,6 +141,7 @@ body {
 
 .alignment::after{
   content: "";
+  clear: both;
   display: table;
 }
 
@@ -187,4 +188,13 @@ body {
   font-weight: bold;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.last {
+  text-align: center;
+  font-size: 15px;
 }
