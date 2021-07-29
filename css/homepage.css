@@ -148,18 +148,26 @@ body {
 .box1 {
   float: left;
   height: 220px;
-  width: 50%;
-  margin-left: 20px;
+  width: 400px;
+  margin-left: 213px;
   padding: 2%;
   border: 1px solid black;
 }
 
 .box2 {
   float: left;
-  width: 30%;
+  width: 300px;
   padding: 2%;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+.box3 {
+  float: left;
+  width: 300px;
+  padding: 2%;
+  margin-left: 20px;
+  margin-top: 30px;
   border: 1px solid black;
 }
 
@@ -195,6 +203,22 @@ body {
 }
 
 .last {
+  height: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
+  background-color: rgb(214, 214, 214);
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.logo {
+  height: 25px;
+  width: auto;
+}
+
+.description {
+  line-height: 1.6;
 }
