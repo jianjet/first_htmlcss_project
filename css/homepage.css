@@ -1,5 +1,10 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url('../image/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
   }
 
   .navbar {
@@ -184,7 +189,6 @@ body {
 }
 
 .tab {
-  background-color: white;
   text-align: center;
   display: inline-block;
   border: 2px solid blue;
@@ -221,4 +225,5 @@ body {
 
 .description {
   line-height: 1.6;
+  text-align: justify;
 }

@@ -1,5 +1,9 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url('../image/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .navbar {
