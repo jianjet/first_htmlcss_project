@@ -144,3 +144,18 @@ body {
     display: block;
     font-size: xxx-large;
   }
+
+  p {
+    font-weight: 550;
+    line-height: 1.4;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+  }
+
+  ol {
+    font-size: 25px;
+    margin-left: 100px;
+    line-height: 1.4;
+  }
