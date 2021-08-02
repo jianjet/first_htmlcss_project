@@ -125,3 +125,20 @@ body {
     text-decoration: none;
   }
 
+  .whole {
+    margin-left: 50px;
+    line-height: 2;
+  }
+
+  .header {
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xxx-large;
+  }
+
+  .big_box {
+    width: 600px;
+    height: 400px;
+    line-height: 40px;
+    padding: 0 5px;
+  }

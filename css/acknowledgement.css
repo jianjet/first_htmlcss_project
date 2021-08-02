@@ -1,5 +1,9 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
+    background-image: url('../image/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .navbar {
@@ -125,3 +129,43 @@ body {
     text-decoration: none;
   }
 
+  .whole {
+    margin-left: 15%;
+  }
+
+  .whole h1 {
+    font-size: xxx-large;
+  }
+
+  .whole .description {
+    padding: 10px;
+    font-size: large;
+  }
+
+  .box {
+    margin-left: 10px;
+    display: block;
+    background-color: rgb(206, 203, 203, 0.6);
+    padding: 10px;
+    width: 700px;
+    height: auto;
+  }
+
+  .box img {
+    padding-right: 20px;
+    width: 40%;
+    height: auto;
+    float: left;
+  }
+
+  .box::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .box .name {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+  }
