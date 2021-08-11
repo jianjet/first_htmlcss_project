@@ -7,11 +7,13 @@ body {
   }
 
   .navbar {
-    overflow: hidden;
+    overflow: visible;
     background-color: rgb(241, 235, 235);
     position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
     width: 100%;
-    top: 0px;
   }
   
   .navbar .homepage {
@@ -216,6 +218,11 @@ body {
   margin-bottom: 15px;
 }
 
+.description {
+  line-height: 1.6;
+  text-align: justify;
+}
+
 .header {
   text-align: center;
   font-family: fantasy;
@@ -241,9 +248,4 @@ body {
 .logo {
   height: 25px;
   width: auto;
-}
-
-.description {
-  line-height: 1.6;
-  text-align: justify;
 }

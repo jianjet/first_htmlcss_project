@@ -7,8 +7,13 @@ body {
   }
 
   .navbar {
-    overflow: hidden;
+    overflow: visible;
     background-color: rgb(241, 235, 235);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
   }
   
   .navbar .homepage {
